@@ -17,7 +17,7 @@ def main():
     api_client = SecuritySurfaceAPI(api_key=API_KEY)
     
     # Scan ID
-    scan_id = "1207526e-931f-4971-98f8-e08f167cdd66"
+    scan_id = "1207526e-931f-4971-98f8-e08f167cdd45"
     
     # Get scan statistics
     statistics_data = api_client.get_scan_statistics(scan_id=scan_id)

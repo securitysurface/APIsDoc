@@ -17,7 +17,7 @@ def main():
     api_client = SecuritySurfaceAPI(api_key=API_KEY)
     
     # Scan ID to stop
-    scan_ids = ["1207526e-931f-4971-98f8-e08f167cdd66"]  # Array of scan IDs
+    scan_ids = ["1207526e-931f-4971-98f8-e08f167cdd45"]  # Array of scan IDs
     
     # Stop scan
     stop_data = api_client.stop_scan(scan_ids=scan_ids)

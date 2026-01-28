@@ -17,7 +17,7 @@ def main():
     api_client = SecuritySurfaceAPI(api_key=API_KEY)
     
     # Query parameters
-    scan_id = "1207526e-931f-4971-98f8-e08f167cdd66"  # Scan ID
+    scan_id = "1207526e-931f-4971-98f8-e08f167cdd45"  # Scan ID
     start_position = 0  # Starting position (starts from 0)
     limit = 100  # Number of vulnerabilities to retrieve
     
